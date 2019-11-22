@@ -1,17 +1,17 @@
 # Project Name: Capstone
-Udacity Data Scientist Nanodegree -  Subject TBD
+Udacity Data Scientist Nanodegree - Dog Breed Identification using Convolutional Neural Networks
 
 ## Data source
  
 
 ## Python libraries used:
    python3
-   Keras (cnn)
+   Keras (CNN)
    Packages in the requirements.txt file   
 
 ## Purpose:
-Create a CNN to classify dog breed. Use Tensorflow backend.
-
+Create a CNN to classify dog breed based the given image. 
+Use Tensorflow backend.
 
 ## Process:
   Step 0: Import Datasets
