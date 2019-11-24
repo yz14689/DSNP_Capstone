@@ -45,9 +45,14 @@ Provided within the project by Udacity
    There are a few ways to improved the model performance, including but not limited to the following. During my process to build the CNN achitechture, I already applied some of these approach such as increasing number of epochs which approved the improvements.
    
    Increase number of epoches  
+   
    Augmentate training data (but can't be too much)
+   
    Tune some of the model parameters
+   
    Adjust the pre-processing method
+   
    Change loss function
+   
    Reduce batch size
    
