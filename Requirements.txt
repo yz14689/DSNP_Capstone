@@ -1,5 +1,4 @@
 ﻿# to load dataset
-
 from sklearn.datasets import load_files       
 from keras.utils import np_utils
 import numpy as np
@@ -13,7 +12,6 @@ import matplotlib.pyplot as plt
 
 # to load pre-trained ResNet-50 model to detect dogs in images
 from keras.applications.resnet50 import ResNet50
-
 
 # to pre-process image data
 from keras.preprocessing import image                  
@@ -34,15 +32,12 @@ from keras.layers.normalization import BatchNormalization
 # to train the model
 from keras.callbacks import ModelCheckpoint  
 
-
 # to extract bottleneck feature and then predict with model
 from extract_bottleneck_features import *
 
- 
-# (Opional) to download the missing data/sample image
+# (Optional) to download the missing data/sample image
 import requests 
 
-
-# (Opional) to load and show picture
+# (Optional) to load and show picture
 from PIL import Image
  
