@@ -11,6 +11,8 @@ Provided within the project by Udacity
    This project is to create a Convolutional Neural Networks model to complete two jobs:
    1. Detect the object on an image as dog or human or neither. 
    2. If the object was detected as a dog, based on the given classes of the world-wide dog breeds, the model should be able to identify the dog breed. 
+   With such an algorithm and CNN model, a web or mobile app could be developped to process the user provided image and estimate the breed if it is a dog. 
+   
    
 ## Process:
   Step 0: Import Datasets
@@ -30,9 +32,9 @@ Provided within the project by Udacity
   Step 7: Test my own Algorithm
 
 ## Analysis
-   Through the process of building my own CNN achitechture, multiple structures were tested and different approaches were applied to achieve better performance of the model. 
+   Through the process of building the algorithm and CNN achitechture, multiple structures were tested and different approaches were applied to achieve better performance of the model. A data pre-processing was also implemented. 
    
-   In addition to building own algorithm, the model can utilize some pre-trained model such as ResNet-50, VGG-19, InceptionV3, etc. These models present significant enhancement in accuracy. 
+  Alternative approach than building own algorithm, we can utilize some pre-trained model such as ResNet-50, VGG-19, InceptionV3, etc. These models present significant enhancement in accuracy. 
    
    We use transfer learning to create CNN model leveraging the above pre-trained model bottlenect features as input, and then build own algorithm to finalize CNN model for our purpose.   
 
