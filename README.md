@@ -1,11 +1,14 @@
 # Project Name: Capstone
-Udacity Data Scientist Nanodegree - Dog Breed Identification using Convolutional Neural Networks
+   Udacity Data Scientist Nanodegree - Dog Breed Identification using Convolutional Neural Networks
 
-## Data source
-Provided within the project by Udacity 
 
-## Python libraries used:
+## Data source:
+   Keras and other data provided within the project by Udacity 
+
+
+## Python libraries:
    See requirements.txt    
+
 
 ## Project Definition:
    This project is to create a Convolutional Neural Networks model to complete two jobs:
@@ -16,32 +19,43 @@ Provided within the project by Udacity
    
 ## Process:
   Step 0: Import Datasets
-  
-  Step 1: Detect Humans
-  
+      Including dog classes data, human data, images
+      Also split data into training/validation/testing, 
+  Step 1: Detect Human
+      Use OpenCV's implementation of Haar feature-based cascade classifiers 
+      Create Face Detector function
   Step 2: Detect Dogs
-  
+      Use use a pre-trained ResNet-50 model 
+      Pre-process data and make prediction with the model
+      Create Dog Detector function
   Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
-  
+      Pre-process data 
+      Build the model architecture with mix of layerse
+      Compile and train the built model
+      Load model with best valiation loss
+      Test model by the accuracy
   Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
-  
+      (shown as example using VGG-19 model)
   Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
-  
+       Use InceptionV3 model
   Step 6: Write my own Algorithm
-  
+       Use the predefined face detector function and dog detector function
   Step 7: Test my own Algorithm
+       Test the algorithm wiht various images, including samples selected from internet
 
-## Analysis
+## Analysis:
    Through the process of building the algorithm and CNN achitechture, multiple structures were tested and different approaches were applied to achieve better performance of the model. A data pre-processing was also implemented. 
    
   Alternative approach than building own algorithm, we can utilize some pre-trained model such as ResNet-50, VGG-19, InceptionV3, etc. These models present significant enhancement in accuracy. 
    
-   We use transfer learning to create CNN model leveraging the above pre-trained model bottlenect features as input, and then build own algorithm to finalize CNN model for our purpose.   
+   We use transfer learning to create CNN model leveraging the above pre-trained model bottlenect features as input, and then build own algorithm to finalize CNN model for our purpose. The final output detected the image with 100% accuracy.
 
-## Conclusion
+
+## Conclusion:
    The final built CNN model (based on the pre-trained InceptionV3 model) in this project correctly detected the object shown on the given image, dog or human or neither. And, it successfully classified the dog breed if it was a dog. It approves that CNN model works very well on image identification. 
    
    However, compared to the final model, the one I built on my own as the first architechture did not work well given the accuracy rate was only 5%. There are a big room to improve my model.
+   
    
 ## Next step:
    There are a few ways to improved the model performance, including but not limited to the following. During my process to build the CNN achitechture, I already applied some of these approach such as increasing number of epochs which approved the improvements.
