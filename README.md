@@ -20,28 +20,36 @@
 ## Process:
   Step 0: Import Datasets
       Including dog classes data, human data, images
-      Also split data into training/validation/testing, 
+      Also split data into training/validation/testing
+      
   Step 1: Detect Human
       Use OpenCV's implementation of Haar feature-based cascade classifiers 
       Create Face Detector function
+      
   Step 2: Detect Dogs
       Use use a pre-trained ResNet-50 model 
       Pre-process data and make prediction with the model
       Create Dog Detector function
+      
   Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
       Pre-process data 
       Build the model architecture with mix of layerse
       Compile and train the built model
       Load model with best valiation loss
       Test model by the accuracy
+      
   Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
       (shown as example using VGG-19 model)
+      
   Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
        Use InceptionV3 model
+       
   Step 6: Write my own Algorithm
        Use the predefined face detector function and dog detector function
+       
   Step 7: Test my own Algorithm
        Test the algorithm wiht various images, including samples selected from internet
+
 
 ## Analysis:
    Through the process of building the algorithm and CNN achitechture, multiple structures were tested and different approaches were applied to achieve better performance of the model. A data pre-processing was also implemented. 
