@@ -19,8 +19,8 @@
    
 ## Process:
   Step 0: Import Datasets
-      Including dog classes data, human data, images
-      Also split data into training/validation/testing
+  Including dog classes data, human data, images
+  Also split data into training/validation/testing
       
   Step 1: Detect Human
       Use OpenCV's implementation of Haar feature-based cascade classifiers 
