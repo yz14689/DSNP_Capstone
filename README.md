@@ -1,5 +1,5 @@
-# Project Name: Capstone
-   Udacity Data Scientist Nanodegree - Dog Breed Identification using Convolutional Neural Networks
+# Project Name: Dog Breed Identification using Convolutional Neural Networks
+   Udacity Data Scientist Nanodegree - Capstone Project
 
 
 ## Data source:
