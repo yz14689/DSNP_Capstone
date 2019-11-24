@@ -13,10 +13,17 @@ Use Tensorflow backend.
 
 ## Process:
   Step 0: Import Datasets
+  
   Step 1: Detect Humans
+  
   Step 2: Detect Dogs
+  
   Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+  
   Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
+  
   Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+  
   Step 6: Write my own Algorithm
+  
   Step 7: Test my own Algorithm
