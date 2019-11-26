@@ -1,6 +1,7 @@
 # Project Name: 
-   Dog Breed Identification using Convolutional Neural Networks
-   Udacity Data Scientist Nanodegree - Capstone Project
+   Dog Breed Identification using CNN (Convolutional Neural Networks)
+   
+   - Udacity Data Scientist Nanodegree Capstone Project
 
 
 ## Data source:
