@@ -61,9 +61,7 @@
 
 
 ## Conclusion:
-   The final built CNN model (based on the pre-trained InceptionV3 model) in this project correctly detected the object shown on the given image, dog or human or neither. And, it successfully classified the dog breed if it was a dog. It approves that CNN model works very well on image identification. 
-   
-   However, compared to the final model, the one I built on my own as the first architechture did not work well given the accuracy rate was only 5%. There are a big room to improve my model.
+   The final built CNN model (based on the pre-trained InceptionV3 model) in this project had 78% testing accuracy, which was not as desired. It successfully detected the object shown on the given image, dog or human or neither. When classified the dog breed, one of the testing image did not correct result from the model, which indicates the need of more improvements. However, it approves that CNN model works mostly on image identification.  
    
    
 ## Next step:
@@ -80,4 +78,8 @@
    Change loss function
    
    Reduce batch size
+   
+   Increase the breeds of dog and train more images
+   
+   
    
