@@ -83,7 +83,7 @@
    Increase the breeds of dog and train more images
    
    
-   ### The publication link is:
+ ## Publication link:
    
    https://medium.com/@yanzhang14689/dog-breed-classification-using-cnn-e9883d473dc9
 
