@@ -2,7 +2,7 @@
    Dog Breed Identification using CNN (Convolutional Neural Networks)
    
    - Udacity Data Scientist Nanodegree Capstone Project
-
+   
 
 ## Data source:
    Keras and other data provided within the project by Udacity 
@@ -83,4 +83,7 @@
    Increase the breeds of dog and train more images
    
    
+   ### The publication link is:
    
+   https://medium.com/@yanzhang14689/dog-breed-classification-using-cnn-e9883d473dc9
+
