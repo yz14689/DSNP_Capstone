@@ -60,6 +60,7 @@
    
    We use transfer learning to create CNN model leveraging the above pre-trained model bottlenect features as input, and then build own algorithm to finalize CNN model for our purpose. The final output detected the image with 100% accuracy.
 
+   The model visulization was also applies through the project to help understand and optimize the model as needed. The visualization includes plotting the model (input and output of each layer of CNN) and plotting density for each image used for testing.
 
 ## Conclusion:
    The final built CNN model (based on the pre-trained InceptionV3 model) in this project had 78% testing accuracy, which was not as desired. It successfully detected the object shown on the given image, dog or human or neither. When classified the dog breed, one of the testing image did not correct result from the model, which indicates the need of more improvements. However, it approves that CNN model works mostly on image identification.  
